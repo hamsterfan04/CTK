@@ -1,0 +1,52 @@
+h1 {
+color:#ff65b2; background-color: #ffdbed;
+}
+
+h2 {
+    color:#74cf5b; background-color:#daffcf ;
+}
+
+h3 {
+    color:#efbe49; background-color:#fff2bc ;
+}
+
+body {
+    color: #532822;
+}
+
+a {
+     color:#ff65b2;
+}
+
+a:visited {
+    color: #74cf5b;
+}
+
+a:hover {
+color:#efbe49;
+}
+
+#two-class {
+    color: #5ba6cf; background-color: #c9ecff;
+}
+
+.class-two {
+    color:#785bcf;background-color: #cfc0ff;
+}
+
+
+#three-class {
+    color: #b85bcf; background-color: #f3c3ff;
+}
+
+.class-three {
+    color:#cf895b;background-color: #ffdcc4;
+}
+
+.divs {background-color: #fff2bc63;color:#cf895b}
+
+#sequence {
+    color:#6584ff; background-color: #d4ddff;
+}
+
+#span {background-color: #fff2bcc6;}
