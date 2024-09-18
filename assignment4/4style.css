@@ -1,0 +1,9 @@
+#text{font-family:Arial, Helvetica, sans-serif}
+
+
+.center {text-align:center}
+.justify {text-align: justify;}
+.head {color:orange; font-style: italic; font-weight: normal;}
+.img {border: 10px solid black; padding: 5px 5px 5px 5px; background-color: yellow;}
+
+body {background-image: url(https://i.pinimg.com/736x/89/d3/ae/89d3aed568532c14e372494ef87def91.jpg);}
