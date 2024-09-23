@@ -1,0 +1,17 @@
+nav ul {list-style-type: none;
+        padding:0px;
+        margin: 0px;}
+
+nav li {border: 1px solid black;
+        width: 150px;
+        padding:0px;
+        margin:10px;
+        background-color:red;
+        display:inline-block;}
+
+nav li a {color:white;
+         padding: 10px;
+         text-decoration: none;
+         display:block;}
+
+nav li a:hover {background-color: maroon;}
