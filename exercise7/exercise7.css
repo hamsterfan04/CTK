@@ -1,0 +1,90 @@
+#wrapper {
+    margin:1em auto; padding:0; 
+    border:3px solid black; 
+    width:900px;
+    background-color:white;
+    display:grid;
+  grid-template-columns: repeat(3, 1fr);}
+
+  body {background-image: url(https://t4.ftcdn.net/jpg/02/90/30/95/360_F_290309594_ybyt8nHw6Q4nKh6nMMilqddeAGk3YO1N.jpg);
+    font-family: Arial, Helvetica, sans-serif;}
+  
+
+  
+#top {grid-column: span 3; 
+    background-color:#ff6a00;
+    color:black;
+    border-bottom: 3px solid black;
+    padding:0;
+}
+h1 {font-weight: normal; margin-left: 1em;}
+
+NAV {grid-column: span 3;align-items: center;}
+    
+
+nav ul {
+    list-style-type: none;
+    margin:0 ;
+    padding:0;
+  }
+
+nav li {display: inline-block; margin:1em}
+
+
+nav li a {
+    height: 15px;
+    width: 150px;
+    display: block;
+    background-color: orange;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+}
+
+nav li a:hover{background-color: #ff6a00;}
+  
+main {grid-column: span 2; padding:0 1em 0 1em; 
+    }
+
+main p{font-family: Georgia, 'Times New Roman', Times, serif;}
+main a {color: orange;
+font-weight: bold;
+text-decoration: none;}
+
+main a:hover {color:#ff6a00; text-decoration: underline;}
+
+img {height:300px; float:right; margin-left: 1em; margin-top: 1em;}
+
+h2 {color: black; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;}
+hr {background-color: black; padding: 1px; margin-top: -1em;}
+
+
+ aside {background-color: #ff6a00;
+    padding:0 1em 0 1em;
+    margin: 0 1em 1em 0;
+    color:white;
+    grid-column: span 1;
+  }
+  
+aside h2 {color: white}
+aside hr {background-color: white;} 
+aside p {color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#italic {font-style:italic ;}
+
+footer {grid-column: span 3;
+    background-color:#ff6a00;
+    height:fit-content;
+    padding:0 px;
+    border-top:3px solid black
+  }
+
+
+  footer p {font-weight: bold; margin-left: 1em;}
+
