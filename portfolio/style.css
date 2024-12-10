@@ -53,14 +53,14 @@ width:100%}
 
 h2 {font-family: Trirong;}
 
-.featuredH2 {font-size: 30px;
+#featuredH2 {font-size: 30px;
   margin-left: 20px;
   margin-bottom: 1px;
   margin-top: 5px;
   font-style: italic;
   font-family: Trirong;
 }
-.featuredP {font-size: 20px; margin-left: 20px; 
+#featuredP {font-size: 20px; margin-left: 20px; 
   text-align: left; margin-right: 5px; margin-top: 1px;
 }
 
@@ -77,7 +77,7 @@ text-align: left;}
 
 main p {margin-left: 20px; margin-right: 20px; margin-top: 10px;}
 
-.date {font-style: italic; margin-right: 5px; margin-left: 20px;font-weight: bold;}
+#date {font-style: italic; margin-right: 5px; margin-left: 20px;font-weight: bold;}
 
 h1 {font-size: 40px; font-family: Trirong ; margin-top: 15px;}
 
