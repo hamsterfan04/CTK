@@ -1,0 +1,137 @@
+body{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-image: url(https://www.newegg.com/insider/wp-content/uploads/2014/04/windows_xp_bliss-wide.jpg);
+    }
+    
+
+
+#wrapper {width:auto; 
+    height:fit-content;
+    margin: 10px 50px 20px 50px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 35px;
+}
+
+.taskbar {text-align:justify; 
+    margin:1px;
+    font-size: large;
+    color:white;
+    padding: 1px}
+
+#left{grid-column: span 2;
+}
+
+#vidborder {
+    background-image: linear-gradient(#235ee8, #1943a5) ;
+    border-radius:5px 5px 2px 2px;
+    padding:5px;
+    padding-top: 1px;
+    border: solid 2px #0f3284;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.334);
+    height:fit-content}    
+
+.body {background-color: #eeeedf;
+padding:6px;
+border-radius: 3px;
+border: solid 1px #aeaea0;}    
+
+iframe {
+    width: 99%;
+    height: 420px;
+    border-radius: 3px;
+    border:2px solid #75756c}
+
+.logo {height: 16px; margin-right: 5px; margin-top: 1px ;}
+
+.deco {height: 18px; margin-top: 1px ; float:right}
+
+nav {grid-column: span 2; 
+    align-items: center;}
+
+nav ul {list-style-type: none; padding:6px 0px 6px 0px ; margin: 0px; }
+
+nav li {display: inline-block;}
+
+nav li a { display:block;
+    height: 20px;
+    width: 100px;
+    text-decoration: none;
+    background-color: #fdfdfb;
+    padding: 3px 10px 3px 10px;
+    border-radius: 3px;
+    border:solid 2px #75756c;
+    margin-inline: 50px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.334);
+    color: black}
+
+nav li a:hover {background-color: #f8f8f5;
+    border:dotted 2px #75756c;
+    color: rgba(0, 0, 0, 0.684);
+    font-weight: bold}
+
+
+
+#artistborder {grid-column: span 1;
+    background-image: linear-gradient(#235ee8, #1943a5) ;
+    border-radius:5px 5px 2px 2px;
+    padding:5px;
+    padding-top: 1px;
+    border: solid 2px #0f3284;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.334);
+    margin-right: 50px;
+    margin-left: 50px;} 
+
+#cover {width: 100%;
+        height:auto;
+        border-radius: 3px;
+        border:2px solid #75756c}
+
+@font-face {
+        font-family: rocketpop;
+        src: url(rocketpop.otf);
+      }
+h2 {font-family: rocketpop;
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0px;
+    background-image: linear-gradient(#235ee8, #1943a5);
+    color: transparent;
+    background-clip: text;}
+
+
+.subtitle {margin:0px;
+    font-size: larger;
+    font-weight: bold;}
+
+p {margin-top:1px;
+    margin-right: 10px;
+    margin-left: 10px;}
+
+#creditborder {
+        background-image: linear-gradient(#235ee8, #1943a5) ;
+        border-radius:5px 5px 2px 2px;
+        padding:5px;
+        padding-top: 1px;
+        border: solid 2px #0f3284;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.334);
+        height:fit-content;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 20px;}    
+
+ul {list-style-type: none; padding: 0px;}
+
+li a:hover {color:#235ee8}
+
+footer {
+        padding: 18px;
+        background-image: url(hotbar.png);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;}
+
+
+
+        
