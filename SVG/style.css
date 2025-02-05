@@ -1,0 +1,35 @@
+body {text-align: center;
+    margin:auto;
+}
+
+
+#shapes {display: block; width: 500px; margin: auto}
+
+#hearts {
+    animation: 1.5s ease-out 1 fallin;}
+
+#envelope {
+    animation: 1s ease-out 0s 1 fallin;
+    transition: all .25s;}
+
+#bubbles {animation: 2s opacity}
+
+#bubbles :hover {opacity: 75%;}
+
+@keyframes fallin {
+    0% {
+      transform: translatey(-20%);
+    }
+    100% {
+      transform: translatey(0);
+    }
+  }
+
+  @keyframes opacity {
+    0% {
+      opacity: 15%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
