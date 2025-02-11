@@ -1,0 +1,82 @@
+body {animation: sunset 8s linear infinite alternate ;
+    }
+
+@keyframes sunset {
+    0%   {background-color:#555a87;}
+    50%  {background-color:#C26989;}
+    100% {background-color:#F7EAC1;}
+  }
+
+ #sunset {
+    position: absolute;
+    top: -0;
+    left: -0;
+    z-index: -9000;
+    margin: 0px;
+  }
+
+#wrapper {text-align: center; 
+    margin:8em;
+    width:auto;
+    }
+
+#thing {background-color: #cdbaad;
+    color:#684834;
+    padding: 2px 20px 2px 20px;
+    border-radius:50px;
+    font-size: large;
+    border: 5px white solid;
+    max-width: 500px;
+    margin: auto;
+    }
+
+p {line-height: 1.5;}
+
+
+#bcloudright { animation: moveR 15s linear infinite; 
+    opacity: 60%;
+    position:absolute; bottom:180px; left:-50px; z-index:9999;
+    height: 150px;}
+
+#tcloudright { animation: moveR 22s linear infinite; 
+        opacity: 60%;
+        position:absolute; top:40px; left:-50px; z-index:-8999;
+        height: 180px;}
+
+ @keyframes moveR {
+    100% {
+      transform: translateX(1400px) ;
+      }
+    } 
+
+    #bcloudleft { animation: moveL 7s linear infinite; 
+        opacity: 60%;
+        position:absolute; bottom:160px; right:-20px; z-index:9999;
+        height: 130px;}
+    
+    #tcloudleft { animation: moveL 18s linear infinite; 
+            opacity: 60%;
+            position:absolute; top:20px; right:-50px; z-index:-999;
+            height: 150px;}
+
+@keyframes moveL {
+                100% {
+                  transform: translateX(-1400px) ;
+                  }}
+
+
+
+#decosun {
+    width: 500px;
+    overflow: hidden;
+  }
+  
+  #decosun img {
+    height: 160px;
+    position:fixed; top:40px; left: 420px; z-index:-999;
+    transition: all .2s; 
+  }
+  
+  #decosun:hover img {
+    transform: rotate(-15deg);
+  }   
