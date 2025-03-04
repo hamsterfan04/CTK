@@ -34,7 +34,7 @@ h1 {color:#725671;
     font-style: italic;
     font-size: large;}
 
-p {color:#9c799b}
+p {color:#725671}
 
 
 footer{
@@ -45,7 +45,8 @@ footer{
     color:#725671;
     margin: auto;}
 
-footer a {text-decoration: none; color:#9c799b}
+footer a {color:#725671;
+    font-weight:bold}
 footer a:hover {text-decoration: underline; 
     color:#725671;
     font-weight: bold;}
